@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".detaidata">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATA RUBIK"
+        android:textSize="13pt"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INFORMASI DATA RUBIK"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/ednama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAMA RUBIK : "
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/edkategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KATEGORI : "
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/edstkr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JENIS STICKER : "
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/edmgnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JENIS MAGNET : "
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/edukuran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UKURAN RUBIK : "
+        android:layout_marginTop="10dp"/>
+
+
+
+
+</LinearLayout>

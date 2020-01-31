@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RubikActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="RUBIK'S CUBE"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEMUA DATA TENTANG RUBIK"
+        android:layout_gravity="center"
+        android:textColor="#493434"/>
+
+    <EditText
+        android:id="@+id/nama_rubik"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAMA RUBIK"/>
+    <EditText
+        android:id="@+id/kategori_rubik"
+        android:layout_marginTop="10dp"
+        android:hint="KATEGORI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/stiker_rubik"
+        android:layout_marginTop="10dp"
+        android:hint="JENIS STIKER"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/magnet_rubik"
+        android:layout_marginTop="10dp"
+        android:hint="JENIS MAGNET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/ukuran_rubik"
+        android:layout_marginTop="10dp"
+        android:hint="UKURAN RUBIK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/hapus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:text="HAPUS" />
+
+        <Button
+            android:id="@+id/hasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70pt"
+            android:text="HASIL"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
